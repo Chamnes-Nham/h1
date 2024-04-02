@@ -1,0 +1,152 @@
+#download{
+    padding-left: 60px;
+    margin-top:-37px;
+}
+.search{
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: gainsboro;
+    margin-left:  20px; 
+    outline: none;
+    border: none;
+}
+.material-symbols-outlined{
+    margin-left: 10px;
+}
+.search-input{
+    font-size: 16px;
+    font-family:'lexend', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    
+}
+#form{
+    padding-left: 200px;
+    margin-top:-53px;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container div p {
+   margin-right: 770px;
+}
+
+.divbox1{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    border: 1px solid rgb(181, 177, 177);
+    border-radius: 10px;
+    padding: 5px 0px 20px 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    border-right: 1px solid rgb(181, 175, 175);
+    box-shadow: 1px 1px 1px 1px gray;
+    position: relative;
+}
+.container .divbox1 .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.container .divbox1 .box i {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.container .divbox1 .box .hurl {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.divbox1,img {
+    border-right: solid black 1px;
+    margin-right: 15px;
+}
+
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-image: url(back_image.avif);
+    background-size: cover;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  form input {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  #modal-btn {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  #modal-btn:hover {
+    background-color: #044e60;
+  }
